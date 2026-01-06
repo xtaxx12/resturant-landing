@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowDown } from 'lucide-react';
+import heroImage from '../public/images/image.png';
 
 const Hero: React.FC = () => {
   return (
@@ -7,7 +8,7 @@ const Hero: React.FC = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/image.png"
+          src={heroImage}
           alt="Elegant dining atmosphere"
           className="w-full h-full object-cover"
         />
